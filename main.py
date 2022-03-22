@@ -3,14 +3,10 @@
 
 from fastapi.exceptions import HTTPException
 from starlette.responses import JSONResponse
-from multiprocessing import Process
-import os
-import asyncio
-from re import U
 from motor.motor_asyncio import AsyncIOMotorClient
 from odmantic import AIOEngine, ObjectId
 from fastapi.responses import HTMLResponse
-from fastapi import Depends, FastAPI, Request
+from fastapi import FastAPI
 import uvicorn
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
