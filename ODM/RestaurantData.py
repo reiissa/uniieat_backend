@@ -21,6 +21,7 @@ class _address(EmbeddedModel):
 
 
 class RestaurantData(Model):
+    storeID: Optional[str] = Field("", example="00008")
     name: Optional[str] = Field("", example="摩斯漢堡")
     open: Optional[str] = Field("", example="true")
     phone: Optional[str] = Field("", example="02 2394 4845")
