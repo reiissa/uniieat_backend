@@ -1,9 +1,9 @@
 fastapi==0.75.0
 motor==2.3.1
 odmantic==0.3.5
-pymongo==4.0.1
+pymongo>=3.11, <4
 python-dotenv==0.19.2
-starlette==0.16.0
+starlette==0.17.1
 uvicorn==0.11.3
 aiofiles==0.6.0
 python-multipart==0.0.5
